@@ -1,0 +1,164 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;		
+	width:100%;
+	background:#fff;
+	min-width:600px;
+					
+	font-size:90%;
+}
+a {
+	color:#369;
+}
+a:hover {
+	color:#fff;
+	background:#369;
+	text-decoration:none;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+}
+p {
+	font-size: larger;
+	font-family: 'Open Sans', sans-serif;
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+img {
+	margin:10px 0 5px;
+}
+
+.nav-bar {
+	float: left;
+	font-size: x-large;
+	color: white;
+    margin: 0;
+    padding: 10px;
+	overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+	text-decoration: none;
+	font-size: x-large
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+nav {
+	display: inline;
+	float: right;
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.mySlides {
+	align-content: center;
+}
+
+/* Youtube Embedding */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.course-list {
+	margin: 0;
+	float: left;
+    color:black;
+    padding: 14px 16px;
+	text-decoration: none;
+	font-size: large;
+	background-color: rgb(255, 255, 255);
+
+}
+
+.course-list-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/* column container */
+.colmask {
+	position:relative;	
+	clear:both;
+	float:left;
+	width:100%;			
+	overflow:hidden;		
+}
+/* common column settings */
+.colmid,
+.colleft {
+	float:left;
+	width:100%;			/* width of page */
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	
+	overflow:hidden;
+}
+/* 3 Column settings */
+.threecol {
+	background:#eee;	
+}
+.threecol .colmid {
+	right:25%;			
+	background:#fff;	
+}
+.threecol .colleft {
+	right:50%;			
+	background:#f4f4f4;	
+}
+.threecol .col1 {
+	width:46%;			
+	left:102%;		
+}
+.threecol .col2 {
+	width:21%;			
+	left:31%;			
+}
+.threecol .col3 {
+	width:21%;			
+	left:85%;			
+}
+/* Footer styles */
+#footer {
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+#footer i {
+	padding:10px;
+	margin:0;
+}
